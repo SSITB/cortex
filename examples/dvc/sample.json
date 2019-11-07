@@ -1,0 +1,3 @@
+{
+    "text": "Make anaconda jupyter notebook auto save .py script <p>I would like to simply be able to launch the jupyter notebook from Anaconda and have it automatically save a .py script when I save the .ipynb. I tried modifying the <code>jupyter-notebook-script.py</code> in the Anaconda3/envs/env_name/Scripts/ but that wasn't the right way. I know I want to set the <code>post-save-hook=True</code> somewhere.</p>"
+}

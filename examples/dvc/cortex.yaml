@@ -1,0 +1,11 @@
+- kind: deployment
+  name: tagger
+
+- kind: api
+  name: python
+  predictor:
+    path: predictor.py
+    metadata:
+      dvc_repo: "https://github.com/cortexlabs/example-get-started"
+      model_path: "model.pkl"
+      pipeline_path: "pipeline.pkl"
